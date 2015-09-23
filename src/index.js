@@ -54,7 +54,7 @@ render(
   <div>
   <Provider store={store}>
     <ReduxRouter />
-	</Provider>
+  </Provider>
   <DebugPanel top right bottom key="debugPanel">
     <DevTools store={store} monitor={LogMonitor} />
   </DebugPanel>
